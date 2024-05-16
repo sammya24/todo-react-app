@@ -1,0 +1,19 @@
+.sort-buttons {
+    padding-bottom: 20px;
+}
+
+.sort-abc-button,
+.sort-date-button,
+.sort-comp-button,
+.sort-ascending-button,
+.sort-descending-button {
+    background-color: rgb(218, 218, 218);
+    color: rgb(22, 22, 22);
+    margin-right: 5px;
+}
+
+.sort-buttons button.active {
+    background-color: #a2b5bd;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+}
